@@ -11,7 +11,7 @@ import java.util.List;
 
 @Repository
 @Transactional
-public class PersonJpaRepository {
+public class PersonRepository {
 
     @Autowired
     EntityManager entityManager;

@@ -13,7 +13,7 @@ import java.sql.Timestamp;
 import java.util.List;
 
 @Repository
-public class PersonDAO {
+public class PersonJdbcTemplateDAO {
 
     @Autowired
     JdbcTemplate jdbcTemplate;
